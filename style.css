@@ -1,0 +1,82 @@
+
+
+body
+{
+background-color:rgb(255, 192, 220);
+}
+
+header
+{
+background-color:rgb(255, 222, 244);
+height:160px;
+}
+
+h1 {
+    color: #ff5599;;
+}
+
+#logo 
+{
+width: 100px;
+height: 100px;
+float: left;
+}
+#form
+    {
+    order: 3;
+    }
+#name{
+    font-size: 30px;
+}
+nav div{
+background-color:#ff5599;
+}
+table
+{
+text-align: center;
+}
+
+table, td, th 
+{
+border: 2px solid #000000;
+}
+
+.z
+{
+background-color: #fb5ab8;
+}
+
+.nh
+{
+background-color: #fdffbc;
+}
+
+.ch
+{
+background-color: #c5eef6;
+}
+
+td, th 
+{
+padding: 3px;
+width: 240px;
+height: 35px;
+}
+
+th 
+{
+background-color: #f7afff;
+}
+footer
+{
+height:150px;
+background-color:#ff5599;
+}
+@media all and (orientation: landscape),(min-width: 768px){
+    nav div{
+        background-color:#ffa9cc;
+    }
+    footer{
+        height:150px; 
+    }
+}
